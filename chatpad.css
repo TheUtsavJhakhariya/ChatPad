@@ -1,0 +1,74 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    background: url('https://images.hdqwalls.com/download/1/forest-mountains-3v-1920x1080.jpg');
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 60%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.286);
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    backdrop-filter: blur(1px);
+}
+
+.chat-log {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chat-form {
+    display: flex;
+    padding: 10px;
+}
+
+.chat-form input {
+    flex: 1;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.chat-form button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #000000;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.msg {
+    margin-bottom: 10px;
+    background-color: #e2e2e2;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.msgtime {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-right: 10px;
+    margin-left: 20px;
+}
