@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatPad</title>
+<link rel="stylesheet" type="text/css" href="chatpad.css">
+</head>
+<body>
+    <div class="chat-container" id="chat-container">
+        <div class="chat-log" id="chat-log"></div>
+        <div class="chat-form">
+            <input type="text" id="msg-input" placeholder="Type your message here..." onkeydown="if (event.keyCode == 13) sendmsg()">
+            <button onclick="sendmsg()">Send</button>
+        </div>
+    </div>
+
+<script src="chatpad.js"></script>
+</body>
+</html>
