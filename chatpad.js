@@ -2,7 +2,7 @@ function sendmsg() {
     var inputuser = document.getElementById('msg-input');
     var chats = document.getElementById('chat-log'); 
  
-    if (inputuser.value !== '') { 
+    if (inputuser.value !== '') {
         var newmsg = document.createElement('div');
         newmsg.classList.add('msg'); 
         newmsg.textContent = inputuser.value;
