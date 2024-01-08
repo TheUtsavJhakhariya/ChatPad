@@ -11,7 +11,7 @@ function sendmsg() {
         msgDetails.style.display = 'flex';  
         msgDetails.style.alignItems = 'center'; 
           
-        var msgtime = document.createElement('div');
+        var msgtime = document.createElement('div'); 
         msgtime.classList.add('msgtime');
         msgtime.textContent = new Date().toLocaleString();
         
