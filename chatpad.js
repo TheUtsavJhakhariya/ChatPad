@@ -18,7 +18,7 @@ function sendmsg() {
         var dltbtn = document.createElement('span');
         dltbtn.classList.add('delete');
         dltbtn.textContent = 'Delete';
-        dltbtn.onclick = function() {
+        dltbtn.onclick = function() { 
             newmsg.remove();
             msgDetails.remove();
         };
