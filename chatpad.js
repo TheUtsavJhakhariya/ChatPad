@@ -7,7 +7,7 @@ function sendmsg() {
         newmsg.classList.add('msg');  
         newmsg.textContent = inputuser.value;
            
-        var msgDetails = document.createElement('div');  
+        var msgDetails = document.createElement('div'); 
         msgDetails.style.display = 'flex';   
         msgDetails.style.alignItems = 'center'; 
           
