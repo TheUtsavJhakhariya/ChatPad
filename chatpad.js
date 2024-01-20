@@ -1,4 +1,4 @@
-function sendmsg() {
+ function sendmsg() {
     var inputuser = document.getElementById('msg-input');
     var chats = document.getElementById('chat-log'); 
  
