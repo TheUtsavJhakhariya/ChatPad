@@ -4,7 +4,7 @@
  
     if (inputuser.value !== '') {
         var newmsg = document.createElement('div');
-        newmsg.classList.add('msg');  
+        newmsg.classList.add('msg');   
         newmsg.textContent = inputuser.value; 
             
         var msgDetails = document.createElement('div');  
