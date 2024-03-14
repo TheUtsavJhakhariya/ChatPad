@@ -27,7 +27,7 @@
         msgDetails.appendChild(dltbtn);
         
         newmsg.appendChild(msgDetails);
-        
+         
         chats.appendChild(newmsg);
         inputuser.value = '';
     }
