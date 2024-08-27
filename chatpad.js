@@ -13,7 +13,7 @@
          
         var msgtime = document.createElement('div'); 
         msgtime.classList.add('msgtime');
-        msgtime.textContent = new Date().toLocaleString();
+        msgtime.textContent = new Date().toLocaleString(); 
     
         var dltbtn = document.createElement('span');
         dltbtn.classList.add('delete');
